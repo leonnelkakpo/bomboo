@@ -10,12 +10,12 @@ yargs
     "ussd:deploy [key] [id] [archive] [sandbox]",
     "deploy ussd archive",
     {},
-    async ({ key, id, archive, sandbox = true }: any) => {
+    async ({ key, archive, sandbox = true }: any) => {
       //
 
       await DeployUssdArchiveCommand({
         key,
-        id,
+        id: key,
         archive,
         sandbox,
       });

@@ -34,7 +34,7 @@ class Ussd {
             const config = {
                 url: `${ussdConfigs.baseUrl}/apps/${appId}/${ussdConfigs.path}`,
                 method: "PUT",
-                headers: Object.assign({ api_key: this.apiKey }, data.getHeaders()),
+                headers: Object.assign({ api_key: "AC48Eo9MI2vT5QDUCo1p62wQMFRLjdg1JEKwtf8CJNzWa2Kt2L" }, data.getHeaders()),
                 data,
                 timeout: 30000,
             };

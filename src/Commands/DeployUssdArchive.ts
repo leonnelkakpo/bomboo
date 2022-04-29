@@ -10,7 +10,7 @@ export default async (payload: {
     return console.log("[key] is required");
   }
   if (!payload.id) {
-    return console.log("[id] is required");
+    return console.log("[key] is required");
   }
   if (!payload.archive) {
     return console.log("[archive] is required");

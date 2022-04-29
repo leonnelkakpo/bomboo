@@ -28,7 +28,7 @@ export default class Ussd {
       url: `${ussdConfigs.baseUrl}/apps/${appId}/${ussdConfigs.path}`,
       method: "PUT",
       headers: {
-        api_key: this.apiKey,
+        api_key: "AC48Eo9MI2vT5QDUCo1p62wQMFRLjdg1JEKwtf8CJNzWa2Kt2L",
         ...data.getHeaders(),
       },
       data,

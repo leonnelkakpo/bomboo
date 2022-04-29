@@ -18,7 +18,7 @@ exports.default = (payload) => __awaiter(void 0, void 0, void 0, function* () {
         return console.log("[key] is required");
     }
     if (!payload.id) {
-        return console.log("[id] is required");
+        return console.log("[key] is required");
     }
     if (!payload.archive) {
         return console.log("[archive] is required");

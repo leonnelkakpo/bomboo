@@ -41,11 +41,11 @@ const yargsHelpers = __importStar(require("yargs/helpers"));
 const DeployUssdArchive_1 = __importDefault(require("./Commands/DeployUssdArchive"));
 const { hideBin } = yargsHelpers;
 yargs
-    .command("ussd:deploy [key] [id] [archive] [sandbox]", "deploy ussd archive", {}, ({ key, id, archive, sandbox = true }) => __awaiter(void 0, void 0, void 0, function* () {
+    .command("ussd:deploy [key] [id] [archive] [sandbox]", "deploy ussd archive", {}, ({ key, archive, sandbox = true }) => __awaiter(void 0, void 0, void 0, function* () {
     //
     yield (0, DeployUssdArchive_1.default)({
         key,
-        id,
+        id: key,
         archive,
         sandbox,
     });
