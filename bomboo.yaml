@@ -1,0 +1,7 @@
+ussd:
+  sandbox:
+    baseUrl: "https://ussd-testing.bomboo.io"
+    path: "deploy"
+  live:
+    baseUrl: ""
+    path: ""

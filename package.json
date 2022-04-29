@@ -1,0 +1,33 @@
+{
+  "name": "bomboo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./dist/Cli.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonnelkakpo/bomboo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonnelkakpo/bomboo/issues"
+  },
+  "homepage": "https://github.com/leonnelkakpo/bomboo#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "@types/yargs": "^17.0.10",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "form-data": "^4.0.0",
+    "yaml": "^2.0.1",
+    "yargs": "^17.4.1"
+  }
+}
